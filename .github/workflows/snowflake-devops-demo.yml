@@ -2,8 +2,9 @@ name: snowflake-devops-demo
 
 # Controls when the action will run. 
 on:
-  push:
     types: [published, created, edited]
+    push:
+    
       branches:
         - main
       paths:
